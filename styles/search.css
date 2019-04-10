@@ -1,0 +1,36 @@
+input.search {
+      color: white;
+      display: flex;
+      width: 100%;
+      border: none;
+      padding: 10px;
+      padding-left: 30px;
+      background-color: var(--sec-color);
+      transition: 0.3s;
+}
+
+input.search:focus {
+      outline: none;
+      background-color: var(--sec-hvr-color);
+}
+
+.result {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid gray;
+      text-align: left;
+}
+
+.result:hover {
+      cursor: pointer;
+}
+
+img.search {
+      position: relative;
+      color: white;
+      top: -25px;
+      left: 5px;
+      width: 17px;
+      height: auto;
+      object-fit: contain;
+}

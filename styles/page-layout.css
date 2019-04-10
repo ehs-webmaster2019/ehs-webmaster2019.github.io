@@ -1,0 +1,38 @@
+.page-layout {
+      grid-template-columns: 50px 1fr;
+      grid-template-rows: 50px inherit inherit inherit;
+      grid-template-areas:
+            "logo    header"
+            "nav     nav"
+            "side    side"
+            "content content"
+            "footer  footer";
+}
+
+@media only screen and (min-width: 720px) {
+      header1 {
+            font-size: 90px; /*100px at max width (scaleable)*/
+            text-align: center;
+      }
+
+      .page-layout {
+            grid-template-columns: 15% 200px 1fr 15%;
+            grid-template-rows: 150px 70px 1fr auto;
+            grid-template-areas:
+                  "left logo    header  right"
+                  "left nav     nav     right"
+                  "left side    content right"
+                  "left footer  footer  right";
+      }
+
+      .main-logo {
+            grid-area: logo;
+            width: 150px;
+            height: 150px;
+            float: center;
+      }
+
+      .main-content {
+            height: auto;
+      }
+}

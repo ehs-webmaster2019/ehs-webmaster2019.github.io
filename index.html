@@ -1,0 +1,64 @@
+ <html>
+
+      <head>
+
+            <link type="text/css" rel="stylesheet" href="styles/style.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/grid.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/page-layout.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/text.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/search.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/img.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/table.css"></link>
+            <link type="text/css" rel="stylesheet" href="styles/blog.css"></link>
+
+            <script src="jquery-3.3.1.min.js"></script>
+            <script src="scripts/main.js"></script>
+            <script src="scripts/util.js"></script>
+            <script src="scripts/concert.js"></script>
+            <script src="scripts/purchases.js"></script>
+
+      </head>
+
+      <body class="grid page-layout">
+
+            <div id="popup">
+            </div>
+            <div onclick="page ('purchase')">
+                  <img class="checkout" onclick="page ('purchase')" src="res/icons/shopping-cart.png"></img>
+            </div>
+
+            <img class="main-logo" src="res/logo.png">
+
+            <h1 class="main-header resize">Enterprise CTE and TSA</h1>
+
+            <div class="main-nav">
+                        <li><a class="button hgt" onclick="page ('home')">Home</a></li>
+                        <li><a class="button" onclick="page ('cte')">CTE</a></li>
+                        <li class="button drop">Teachers
+                              <div class="drop-content">
+                                    <a class="button" onclick="page ('teachers/cuzio')">Nick Cuzio</a>
+                                    <a class="button" onclick="page ('teachers/king')">Joshua King</a>
+                                    <a class="button" onclick="page ('teachers/hatfield')">Hannah Hatfield</a>
+                                    <a class="button" onclick="page ('teachers/key')">Jamie Key</a>
+                              </div>
+                        </li>
+                        <li><a class="button" onclick="page ('music')">Music</a></li>
+                        <li><a class="button" onclick="page ('blog')">Blog</a></li>
+                        <li><a class="button" onclick="page ('merch')">Merch</a></li>
+                        <li style="float:right">
+                              <a class="button" onclick="page ('about')">About</a>
+                        </li>
+                  </ul>
+            </div>
+
+            <aside class="main-side"></aside>
+
+            <div class="main-content">
+                  <div class="content"><!--style="border: 1px solid red;"-->
+                  </div>
+            </div>
+
+            <footer class="main-footer">2019 Enterprise TSA Webmaster team: Zachary Gayford, Aidan Knox, Carson Phillips, John Carter</footer>
+      </body>
+
+</html>

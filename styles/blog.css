@@ -1,0 +1,68 @@
+.post {
+      background-color: var(--sec-color);
+      border: 20px solid white;
+
+      padding-left: 50px;
+}
+
+.comment {
+      background-color: var(--sec-color);
+      border: 20px solid white;
+      margin-bottom: -20px;
+      margin-right: -20px;
+
+      padding-left: 50px;
+}
+
+.profile {
+      position: absolute;
+      top: -7px;
+      right: 15px;
+      width: 35px;
+      height: 35px;
+      clip-path: circle(17.5px at center);
+}
+
+.head {
+      display: block;
+      position: relative;
+}
+
+.username {
+      position: absolute;
+      top: -17px;
+      right: 130px;
+      width: 35px;
+      height: 35px;
+      text-align: right;
+      clear: left;
+}
+
+.post p {
+      color: white;
+}
+
+.post h3 {
+      color: white;
+}
+
+.post table {
+      color: black;
+      border-collapse: collapse;
+}
+
+.post th, tr, td {
+      color: black;
+      border: 1px solid lightgray;
+      padding: 10px;
+}
+
+.post tr {
+      transition-duration: 0.3s;
+      background-color: lightgray;
+      border: 2px solid gray;
+}
+
+.post tr:nth-child(odd) {
+      background-color: white;
+}

@@ -1,0 +1,43 @@
+h1 {
+      font-size: 50px;
+      font-weight: bold;
+      white-space: nowrap;
+      overflow: hidden;
+}
+
+h2 {
+      font-size: 30px;
+      white-space: nowrap;
+      overflow: hidden;
+}
+
+h3 {
+      font-size: 25px;
+}
+
+h4 {
+      font-size: 20px;
+}
+
+.indent {
+      padding-left: 10px;
+}
+
+.quote {
+      font-size: 30px;
+      color: var(--pri-color);
+}
+
+.quoted {
+      margin: 0px;
+      padding-left: 90px;
+      font-size: 25px;
+      color: var(--pri-color);
+      font-style: italic;
+}
+
+.focus {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      text-align: center;
+}

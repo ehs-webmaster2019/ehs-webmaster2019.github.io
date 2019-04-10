@@ -1,0 +1,50 @@
+img {
+      object-fit: cover;
+      width: 200px;
+      height: 200px;
+}
+
+.portrait {
+      object-fit: cover;
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 200px;
+      height: 300px;
+}
+
+.gal {
+      position: relative;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+.gal-content {
+      object-fit: cover;
+      height: 10.427528675vw;
+      width: 10.427528675vw;
+}
+
+.gal-content:hover {
+      display: block;
+      cursor: pointer;
+      transform: scale(1.25, 1.25);
+      z-index: 1;
+}
+
+.checkout {
+      width: 75px;
+      height: 75px;
+      transition-duration: 0.3s;
+      display: none;
+      font-size: 50px;
+      position: fixed;
+      z-index: 2;
+      bottom: 10px;
+      left: 10px;
+      color: var(--sec-color);
+}
+
+.checkout:hover {
+      cursor: pointer;
+      color: var(--sec-hvr-color);
+}
